@@ -1,0 +1,102 @@
+body {
+
+    background-color: #9dc4ff;
+
+    font-family: Collonse;
+
+    color: #ffd89d;
+
+    margin: 25px 50px 75px 100px;
+}
+
+@font-face {
+    font-family: Collonse;
+    src: url(fonts/Collonse.ttf);
+}
+
+.strokeme {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.btn {
+    background: #ffd89d;
+    color: #9dc4ff;
+    
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    
+    text-decoration: none;
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    
+    position: relative;
+    margin: auto;
+    inset: 0;
+}
+
+.btn:hover,  
+.btn:focus, 
+.btn:active {
+    height: fit-content;
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 75px;
+}
+
+form {
+    font-size: 125%;
+}
+
+input,
+select,
+option {
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    font-family: Collonse;
+    
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+input,
+select {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+input:hover,  
+input:focus, 
+intput:active,
+select:hover,
+select:focus,
+select:active {
+    height: fit-content;
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
